@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Свежий Урожай — Фрукты и Овощи</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HERO -->
+    <header class="hero" id="home">
+        <div class="container">
+            <div class="hero-badge">
+                <span>🍎</span> Свежие поставки каждый день <span>🥕</span>
+            </div>
+            <h1>Свежий Урожай</h1>
+            <p class="hero-subtitle">
+                Магазин фермерских овощей и фруктов с доставкой на дом.
+                Только натуральное, только вкусное!
+            </p>
+            <div class="hero-features">
+                <div class="hero-feature">✅ 100% органика</div>
+                <div class="hero-feature">📍 Рядом с вами</div>
+            </div>
+            <a href="#products" class="btn btn-outline">Смотреть товары</a>
+        </div>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#home" class="logo">
+                <span class="logo-icon">🥬</span> Свежий Урожай
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#products">Товары</a></li>
+                <li><a href="#advantages">Преимущества</a></li>
+                <li><a href="#contact">Контакты</a></li>
+                <li><a href="tel:+7929507333" class="nav-phone">📞 +7 (929) 507-53-33</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                        alt="Свежие овощи и фрукты" 
+                        loading="lazy">
+                </div>
+                <div class="about-text">
+                    <h2>Кто мы такие?</h2>
+                    <p>
+                        «Свежий Урожай» — это семейный магазин с историей. Мы работаем с 2015 года 
+                        и каждый день поставляем вам лучшие овощи, фрукты и зелень от проверенных фермеров.
+                    </p>
+                    <p>
+                        Никаких химикатов, только натуральные продукты, выращенные с любовью. 
+                        Мы лично отбираем каждый плод перед тем, как он попадет к вам на стол.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="stat-number">9+</div>
+                            <div class="stat-label">лет на рынке</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">2000+</div>
+                            <div class="stat-label">довольных клиентов</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">фермеров-партнёров</div>
+                        </div>
+                    </div>
+                    
+                    <!-- БЛОК РОЗНИЦА / ОПТ -->
+                    <div class="about-buy-types">
+                        <div class="buy-type-card">
+                            <div class="buy-type-icon">🛒</div>
+                            <div class="buy-type-content">
+                                <h4>Розница</h4>
+                                <p>Приходите за покупками как в обычный магазин — берите хоть одно яблоко, хоть полную корзину. Взвесим, упакуем, дадим попробовать. Рады каждому гостю!</p>
+                            </div>
+                        </div>
+                        <div class="buy-type-card">
+                            <div class="buy-type-icon">📦</div>
+                            <div class="buy-type-content">
+                                <h4>Опт</h4>
+                                <p>Снабжаем кафе, рестораны и продуктовые магазины. Коробками, палетами, от ящика до фуры. Специальные цены от объёма и стабильное качество в каждой поставке.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="section section-products" id="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Наш ассортимент</h2>
+                <p>Каждый продукт отобран лично — только лучшее для вашего стола</p>
+            </div>
+
+            <!-- 🍎 ФРУКТЫ -->
+            <div class="category-block">
+                <div class="category-title">
+                    <span class="category-icon">🍎</span>
+                    <h3>Фрукты</h3>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card" data-category="Яблоки">
+                        <div class="product-img">
+                            <img src="img/apple.png" alt="Красные яблоки" loading="lazy">
+                            <span class="product-badge">Хит</span>
+                        </div>
+                        <div class="product-info"><h4>Яблоки</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Груши">
+                        <div class="product-img">
+                            <img src="img/gryshi.png" alt="Спелые груши" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Груши</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Бананы">
+                        <div class="product-img">
+                            <img src="img/Bananas.png" alt="Спелые бананы" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Бананы</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Апельсины">
+                        <div class="product-img">
+                            <img src="img/Oranges.png" alt="Сочные апельсины" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Апельсины</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Мандарины">
+                        <div class="product-img">
+                            <img src="img/Mandarins.png " alt="Мандарины" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Мандарины</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Лимоны">
+                        <div class="product-img">
+                            <img src="img/Lemons.png" alt="Свежие лимоны" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Лимоны</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Лаймы">
+                        <div class="product-img">
+                            <img src="img/Limes.png" alt="Зелёные лаймы" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Лаймы</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Киви">
+                        <div class="product-img">
+                            <img src="img/kiwi.png" alt="Киви" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Киви</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Ананасы">
+                        <div class="product-img">
+                            <img src="img/pineapple.png" alt="Спелый ананас" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Ананасы</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Манго">
+                        <div class="product-img">
+                            <img src="img/mango.png" alt="Спелое манго" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Манго</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Авокадо">
+                        <div class="product-img">
+                            <img src="img/avokado.png" alt="Свежий авокадо" loading="lazy">
+                            <span class="product-badge product-badge-new">New</span>
+                        </div>
+                        <div class="product-info"><h4>Авокадо</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Персики">
+                        <div class="product-img">
+                            <img src="img/Peaches.png" alt="Сочные персики" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Персики</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Нектарины">
+                        <div class="product-img">
+                            <img src="img/Nectarines.png" alt="Спелые нектарины" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Нектарины</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Сливы">
+                        <div class="product-img">
+                            <img src="img/Plums.png" alt="Спелые сливы" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Сливы</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Виноград">
+                        <div class="product-img">
+                            <img src="img/grape.png" alt="Сладкий виноград" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Виноград</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Гранат">
+                        <div class="product-img">
+                            <img src="img/pomegranate.png" alt="Спелый гранат" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Гранат</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Хурма">
+                        <div class="product-img">
+                            <img src="img/persimmon.png" alt="Сладкая хурма" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Хурма</h4></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 🥕 ОВОЩИ -->
+            <div class="category-block">
+                <div class="category-title">
+                    <span class="category-icon">🥕</span>
+                    <h3>Овощи</h3>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card" data-category="Помидоры">
+                        <div class="product-img">
+                            <img src="img/tomato.png" alt="Спелые помидоры" loading="lazy">
+                            <span class="product-badge">Хит</span>
+                        </div>
+                        <div class="product-info"><h4>Помидоры</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Огурцы">
+                        <div class="product-img">
+                            <img src="img/Cucumbers.png" alt="Свежие огурцы" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Огурцы</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Картофель">
+                        <div class="product-img">
+                            <img src="img/potato.png" alt="Молодой картофель" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Картофель</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Морковь">
+                        <div class="product-img">
+                            <img src="img/carrot.png" alt="Свежая морковь" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Морковь</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Лук репчатый">
+                        <div class="product-img">
+                            <img src="img/onion.png" alt="Репчатый лук" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Лук репчатый</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Чеснок">
+                        <div class="product-img">
+                            <img src="img/chesnok.png" alt="Головки чеснока" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Чеснок</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Капуста">
+                        <div class="product-img">
+                            <img src="img/cabbage.png" alt="Белокочанная капуста" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Капуста</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Брокколи">
+                        <div class="product-img">
+                            <img src="img/brokoli.png" alt="Свежая брокколи" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Брокколи</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Цветная капуста">
+                        <div class="product-img">
+                            <img src="img/cauliflower.png" alt="Цветная капуста" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Цветная капуста</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Кабачки">
+                        <div class="product-img">
+                            <img src="img/kabachki.png" alt="Свежие кабачки" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Кабачки</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Баклажаны">
+                        <div class="product-img">
+                            <img src="img/baklazhany.png" alt="Спелые баклажаны" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Баклажаны</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Болгарский перец">
+                        <div class="product-img">
+                            <img src="img/Bell pepper.png" alt="Болгарский перец" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Болгарский перец</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Свекла">
+                        <div class="product-img">
+                            <img src="img/svekla.png" alt="Свежая свекла" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Свекла</h4></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 🥬 ЗЕЛЕНЬ -->
+            <div class="category-block">
+                <div class="category-title">
+                    <span class="category-icon">🥬</span>
+                    <h3>Зелень</h3>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card" data-category="Укроп">
+                        <div class="product-img">
+                            <img src="img/ukrop.png" alt="Свежий укроп" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Укроп</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Петрушка">
+                        <div class="product-img">
+                            <img src="img/petrushka.png" alt="Свежая петрушка" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Петрушка</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Кинза">
+                        <div class="product-img">
+                            <img src="img/Cilantro.png" alt="Свежая кинза" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Кинза</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Базилик">
+                        <div class="product-img">
+                            <img src="img/bazilik.png" alt="Зелёный базилик" loading="lazy">
+                            <span class="product-badge product-badge-new">New</span>
+                        </div>
+                        <div class="product-info"><h4>Базилик</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Руккола">
+                        <div class="product-img">
+                            <img src="img/rykola.png" alt="Свежая руккола" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Руккола</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Салат листовой">
+                        <div class="product-img">
+                            <img src="img/listovoy salat.png" alt="Листовой салат" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Салат листовой</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Шпинат">
+                        <div class="product-img">
+                            <img src="img/shpinat.png" alt="Свежий шпинат" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Шпинат</h4></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 🍄 ГРИБЫ -->
+            <div class="category-block">
+                <div class="category-title">
+                    <span class="category-icon">🍄</span>
+                    <h3>Грибы</h3>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card" data-category="Шампиньоны">
+                        <div class="product-img">
+                            <img src="img/Shampinony.png" alt="Шампиньоны" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Шампиньоны</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Вешенки">
+                        <div class="product-img">
+                            <img src="img/veshenki.png" alt="Вешенки" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Вешенки</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Белые грибы">
+                        <div class="product-img">
+                            <img src="img/Belyye griby.png" alt="Белые грибы" loading="lazy">
+                            <span class="product-badge">Премиум</span>
+                        </div>
+                        <div class="product-info"><h4>Белые грибы</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Лисички">
+                        <div class="product-img">
+                            <img src="img/lisichki.png" alt="Лисички" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Лисички</h4></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 🍓 ЯГОДЫ -->
+            <div class="category-block">
+                <div class="category-title">
+                    <span class="category-icon">🍓</span>
+                    <h3>Ягоды</h3>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card" data-category="Клубника">
+                        <div class="product-img">
+                            <img src="img/klybnika.png" alt="Спелая клубника" loading="lazy">
+                            <span class="product-badge">Сезон</span>
+                        </div>
+                        <div class="product-info"><h4>Клубника</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Малина">
+                        <div class="product-img">
+                            <img src="img/malina.png" alt="Свежая малина" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Малина</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Черника">
+                        <div class="product-img">
+                            <img src="img/chernika.png" alt="Лесная черника" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Черника</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Голубика">
+                        <div class="product-img">
+                            <img src="img/golybika.png" alt="Спелая голубика" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Голубика</h4></div>
+                    </div>
+                    <div class="product-card" data-category="Смородина">
+                        <div class="product-img">
+                            <img src="img/smorodina.png" alt="Красная смородина" loading="lazy">
+                        </div>
+                        <div class="product-info"><h4>Смородина</h4></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ADVANTAGES -->
+    <section class="section advantages" id="advantages">
+        <div class="container">
+            <div class="section-header">
+                <h2>Почему выбирают нас?</h2>
+                <p>Мы не просто магазин — мы создаём настроение свежести каждый день</p>
+            </div>
+            <div class="advantages-grid">
+                <div class="adv-card">
+                    <div class="adv-icon">✨</div>
+                    <h3>Только высшее качество</h3>
+                    <p>Каждый плод проходит ручной отбор перед выкладкой на прилавок — никакой помятости, гнили и химии. Только то, что вы сами выбрали бы для своей семьи</p>
+                </div>
+                <div class="adv-card">
+                    <div class="adv-icon">🏪</div>
+                    <h3>Шаговая доступность</h3>
+                    <p>Всего 2 минуты пешком от метро. Зайти за свежими фруктами после работы или в обеденный перерыв проще, чем заказать доставку</p>
+                </div>
+                <div class="adv-card">
+                    <div class="adv-icon">💰</div>
+                    <h3>Фермерские цены без накруток</h3>
+                    <p>Работаем напрямую с хозяйствами без посредников. Вы платите за продукт, а не за аренду складов и рекламные бюджеты</p>
+                </div>
+                <div class="adv-card">
+                    <div class="adv-icon">🔄</div>
+                    <h3>Свежесть каждый день</h3>
+                    <p>Полное обновление ассортимента на регулярной основе. Продукты попадают на прилавок максимально свежими — вы замечаете разницу уже с первого взгляда.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- CONTACT -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Где мы находимся?</h2>
+                <p>Ждём вас в гости или звоните — всё расскажем, подскажем, придержим товар</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h3>Адрес</h3>
+                            <p>Калужское шоссе, 22-й км, д. 10<br>Новомосковский АО, район Коммунарка<br>Корпус 3, ячейки 162 и 163</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🕐</div>
+                        <div>
+                            <h3>Время работы</h3>
+                            <p>Ежедневно с 15:00 до 19:00<br><small style="color:#999;"></small></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h3>Телефон</h3>
+                            <p><a href="tel:+79295075333" class="contact-phone">+7 (929) 507-53-33</a></p>
+                        </div>
+                    </div>
+                    <a href="tel:+79295075333" class="btn btn-orange btn-contact">📞 Позвонить сейчас</a>
+                </div>
+                
+                    <!-- Яндекс.Карта -->
+                    <div class="map-container">
+                        <iframe 
+                            src="https://yandex.ru/map-widget/v1/?ll=37.471102%2C55.601010&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNjA5NTI5ODA3Et0B0KDQvtGB0YHQuNGPLCDQnNC-0YHQutCy0LAsINCd0L7QstC-0LzQvtGB0LrQvtCy0YHQutC40Lkg0LDQtNC80LjQvdC40YHRgtGA0LDRgtC40LLQvdGL0Lkg0L7QutGA0YPQsywg0JrQsNC70YPQttGB0LrQvtC1INGI0L7RgdGB0LUsIDI0LdC5INC60LwsIDEw0YEy0YHQutC-0LUg0L3QsNC_0YDQsNCy0LvQtdC90LjQtSwg0LrQvtGA0L%2FGD9GBIDMsINGP0YfQtdC50LrQuCAxNjIg0LggMTYzIgoNe1NsQhU0yYtC&z=16"
+                            width="100%" 
+                            height="100%" 
+                            frameborder="0" 
+                            allowfullscreen
+                            style="border-radius: 16px;"
+                            loading="lazy">
+                        </iframe>
+                        <a href="https://yandex.ru/maps?ol=geo&text=%D0%9A%D0%B0%D0%BB%D1%83%D0%B6%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5,%2022-%D0%B9%20%D0%BA%D0%B8%D0%BB%D0%BE%D0%BC%D0%B5%D1%82%D1%80,%2010&sll=37.471102,55.601010&sspn=0.004649,0.008210&si=2vx85a5ah5qz4br35gtm1x4b5c" 
+                        target="_blank" 
+                        class="map-link-overlay"
+                        title="Открыть в Яндекс.Картах">
+                            📍 Открыть в Яндекс.Картах
+                        </a>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- DISCLAIMER -->
+    <section class="section disclaimer">
+        <div class="container">
+            <p class="disclaimer-text">
+                * Изображения на сайте являются демонстрационными и отражают общий ассортимент и качество нашей продукции. 
+                Поскольку мы работаем с натуральными и сезонными товарами, фактический внешний вид может незначительно отличаться.
+            </p>
+        </div>
+    </section> 
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>🥬 Свежий Урожай</h3>
+                    <p>Свежие овощи и фрукты каждый день.</p>
+                    <p>Натурально. Вкусно. Полезно.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Разделы</h3>
+                    <a href="#about">О нас</a>
+                    <a href="#products">Товары</a>
+                    <a href="#advantages">Преимущества</a>
+                    <a href="#contact">Контакты</a>
+                </div>
+                <div class="footer-col">
+                    <h3>Контакты</h3>
+                    <p><a href="tel:+79295075333" class="contact-phone">+7 (929) 507-53-33</a></p>
+                    <p>Калужское шоссе, 22-й км, д. 10<br>Новомосковский АО, район Коммунарка<br>Корпус 3, ячейки 162 и 163</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 «Свежий Урожай». Все права защищены. Любим вас и природу! 🌍</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BACK TO TOP -->
+    <button class="back-to-top" id="backToTop" aria-label="Наверх">↑</button>
+
+    <!-- MODAL -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <button class="modal-close" id="modalClose" aria-label="Закрыть">✕</button>
+            <div class="modal-img">
+                <img src="" alt="" id="modalImage">
+            </div>
+            <h2 id="modalTitle">🎉 Отличный выбор!</h2>
+            <p>Чтобы узнать цену и наличие, просто позвоните нам или посетите магазин. Мы всегда рады помочь!</p>
+            <a href="tel:+7929507333" class="btn btn-orange">📞 Позвонить нам</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
